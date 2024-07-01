@@ -1,0 +1,13 @@
+Exception in thread "main" py4j.Py4JNetworkException
+	at py4j.GatewayServer.startSocket(GatewayServer.java:788)
+	at py4j.GatewayServer.start(GatewayServer.java:763)
+	at py4j.GatewayServer.start(GatewayServer.java:746)
+	at MathOperations.main(MathOperations.java:17)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:629)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:393)
+	at py4j.GatewayServer.startSocket(GatewayServer.java:786)
+	... 3 more
