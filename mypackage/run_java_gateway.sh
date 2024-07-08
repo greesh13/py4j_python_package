@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set the correct path to the py4j jar
+# Set the correct path to the py4j jar file for your directory
 PY4J_PATH="$(dirname $0)/py4j-0.10.9.5.jar"
 
 # Compile the Java file
